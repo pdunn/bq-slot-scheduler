@@ -1,0 +1,6 @@
+runtime: python37
+
+env_variables:
+  admin_project_id: ""
+  max_slots: "1000"
+  delete_queue: ""
