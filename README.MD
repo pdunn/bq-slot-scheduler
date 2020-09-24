@@ -17,3 +17,7 @@
 
 # Create cron job with Clou Scheduler
     gcloud scheduler jobs create app-engine add-slots --schedule="* 9 * * 1,2,3,4,5" --http-method="POST" --relative-url="/add_capcity" --message-body='{"region":"US", "extra_slots":100,"minutes":5}'
+
+# Set app engine firewall
+    #set default deny rule
+    gcloud app firewall-rules update default --action=DENY
