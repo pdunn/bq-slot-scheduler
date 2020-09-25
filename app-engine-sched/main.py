@@ -52,7 +52,7 @@ def add_capacity_request():
                                   queue,
                                   commit.name,
                                   minutes)
-        return "scheduled removal with {}".format(resp)
+        return resp
 
 
 @app.route(ROUTE_DEL_CAP, methods=['POST'])
