@@ -1,5 +1,5 @@
-# BQ Slots Scheduler
-This project describes how to use servless components to schedule modifications to BQ Slot commitments.
+# BigQuery Slots Scheduler
+This project describes how to use servless components to schedule modifications to BigQuery Slot commitments.
 
 Instructions here describe howto deploy the contents of the app-engine-sched/ folder. If you are interested in deploying the code as Cloud Functions instead, the sched_add_capacity/ and sched_del_capacity/ folders can be deployed as separate functions.
 
