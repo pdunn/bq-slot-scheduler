@@ -130,11 +130,6 @@ def server_error(e):
 
 
 if __name__ == '__main__':
-"""
-    os.environ['admin_project_id'] = ''
-    os.environ['max_slots'] = "1000"
-    os.environ['delete_queue'] = "projects/{}/locations/us-central1/queues/{}"
-"""
     app.run()
 
 

@@ -1,4 +1,4 @@
 Flask
-google-cloud-bigquery-reservation
+google-cloud-bigquery-reservation==0.4.2
 google-cloud-tasks
-
+pytz

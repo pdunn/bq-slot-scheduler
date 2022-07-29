@@ -1,6 +1,6 @@
 runtime: python37
 
 env_variables:
-  admin_project_id: ""
+  admin_project_id: "${project-with-your-slot-reservations}"
   max_slots: "1000"
-  delete_queue: ""
+  delete_queue: "projects/${project-with-your-app-engine}/locations/us-central1/queues/${name-of-queue-you-made}"
